@@ -1,0 +1,334 @@
+
+
+
+*{    
+    margin: 0;
+    padding: 0;
+}
+
+header{
+   
+    display: flex;
+    background-color:grey;
+}
+.logo{
+    display: flex;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+}
+h1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    padding-left: 5px;
+    padding-top: 0px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    align-items: center;
+    justify-content: center;
+    float: right;
+}
+nav{
+    background-color:grey ;
+    color: white;
+    padding: 30px;
+    text-align: flex;
+    justify-content: space-between;
+    word-spacing: 2px;
+    align-items: flex-end;
+    float: left;
+    font-size: x-large;
+    margin-left: 250px;
+    padding-left: 2px; 
+    text-decoration: rgb(2, 2, 27);
+
+}  
+main{
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    background-image: 100px;
+    
+}
+.venue{
+    display: flex;
+    flex: 6;
+    align-items: left;
+    height: 60vh;
+    padding: 30px ;
+    margin: 5px;
+}
+.venue img{
+    height: 60vh;
+    width: 80vh;
+    margin-top: 2px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+}
+
+
+.Text1{
+    display: flex;
+    padding-inline: 80px;
+    text-align: justify;
+    flex-direction:row;
+    flex-wrap: wrap;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style:normal;
+    font-size: 10vh;
+    font-weight: bolder;
+    font-stretch: expanded;
+    float: right;
+    color: white;
+    margin-top: 2px;
+    align-items: start;
+    justify-content: start;
+    text-align:right;
+
+}
+
+.Text2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap ;
+    text-align: justify;
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 5vh;
+    font: 1000;
+    font-stretch: expanded;
+    padding-left: 25px;
+    padding-right: 2px;
+    margin-left: 20px;
+    margin-right: 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(29, 82, 82);
+}
+h3{
+    display: flex;
+    flex-direction: row;
+    text-wrap: wrap;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 30px;
+    padding-top: 2px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    margin-top: 2px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    align-items: center;
+    justify-content: center;
+    color:rgb(77, 50, 15);
+    flex-flow: row;
+
+
+}
+main{
+    height: 60vh;
+}
+.about{
+    display: flex;
+    
+}
+h2{
+    display: flex;
+    flex-direction: row;
+    text-wrap: wrap;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-right: 2px;
+    margin-left: 2px;
+    align-items: justify;
+    justify-content: center;
+    color:rgb(15, 9, 1);
+    flex-flow: row; 
+}
+p{
+    display: flex;
+    flex-direction: row;
+    text-wrap: wrap;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 2px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    margin-right: 2px;
+    margin-left: 2px;
+    align-items: justify;
+    justify-content: center;
+    color:rgb(15, 9, 1);
+    flex-flow: row; 
+}
+
+.agenda{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding-left: 2px;
+    padding-top: 2px;
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+}
+.day{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    padding-left: 5px;
+    padding-top: 0px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+        background-color: #04AA6D;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+}
+    @media  only screen and (min-width:540px){
+     body  {
+    font-size: 20px;
+  }
+} 
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position:unset;
+    bottom: 0;
+    width: 100%;
+}
+.linkedin-icon, .instagram-icon, .facebook-icon {
+    font-size: 50px;
+    color: #333;
+    margin-right: 10px;
+   }
+  
+.linkedin-icon, .instagram-icon, .facebook-icon {
+    font-size: 24px;
+    color: #333;
+    margin-right: 10px;
+   }
+  .contact-section {
+    padding: 20px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.contact-method {
+    display:list-item;
+    margin: 10px;
+    font-size: 50px;
+}
+
+.contact-icon {
+    font-size: 50px;
+}
+.contact-section {
+    padding: 20px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.contact-method {
+    display:list-item;
+    margin: 10px;
+    font-size: 50px;
+}
+
+.contact-icon {
+    font-size: 50px;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+nav a:hover {
+    color: #007BFF;
+}nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+nav a:hover {
+    color: #007BFF;
+}
+
+
